@@ -1,0 +1,121 @@
+@font-face {
+    font-family: text;
+    src: url(./GreatVibes-Regular.ttf);
+}
+@font-face {
+    font-family: h2;
+    src: url(./Magnolia.ttf);
+}
+@font-face {
+    font-family: lala;
+    src: url(./FuturisticYourself.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.grey{
+    height: 100%;
+    width:100%;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.main{
+    height: 70%;
+    width: 60%;
+    background-color: rgb(37, 35, 35);
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    padding-left:50px ;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+    
+}
+.side{
+    height: 70%;
+    width: 20% ;
+    background-color: black;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+    padding-top: 20px;
+}
+.watch{
+    height: 50%;
+    width: 15%;
+    position: absolute;
+    top: 27%;
+    left: 63%;
+    /* background:pink; */
+    background-image: url(./Screenshot_2024-12-05_110705-removebg-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main h1{
+          font-size: 24px;
+          margin-left: 40px;
+          margin-top: 40px;
+          color: white;
+
+}
+.main p{
+    margin-left: 15px;
+    color: white;
+}
+.text{
+    height: 40%;
+    width: 40%;
+    /* background-color: grey; */
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    padding-left: 40px;
+}
+.text h1{
+    font-family: lala;
+    color: darkgoldenrod;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 90px;
+    font-weight: 400;
+}
+.text h2 {
+    font-family: lala;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 0px;
+    color: wheat;
+}
+.text p{
+    text-align: center;
+    color: darkgoldenrod;
+    margin-bottom: 30px;
+}
+.text button{
+    height: 40px;
+    width: 150px;
+    color: rgb(213, 171, 65);
+    border-color: rgb(213, 171, 65);
+    background-color: transparent;
+    align-items: center;
+    margin-left: 200px;
+
+}
+.side a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+     margin-left: 80px;
+}
+    
+
